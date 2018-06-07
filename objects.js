@@ -1,7 +1,7 @@
 var playlist = {Paramore:'Fake Happy'}
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  return playlist.artistName = songTitle
+  return playlist.${artistName} = songTitle
 }
 
 function removeFromPlaylist(playlist, artistName) {
