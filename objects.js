@@ -1,8 +1,7 @@
 var playlist = {Paramore:'Fake Happy'}
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  Object.assign(playlist, {artistName: songTitle})
-  return playlist
+  return playlist.artistName = songTitle
 }
 
 function removeFromPlaylist(playlist, artistName) {
